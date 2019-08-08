@@ -56,7 +56,6 @@ class Post extends CActiveRecord
 				'message' => 'Tags can only contain word characters.'
 			),
 			array('tags', 'normalizeTags'),
-
 			array('title, status', 'safe', 'on' => 'search'),
 		);
 	}
@@ -110,6 +109,37 @@ class Post extends CActiveRecord
 			'id' => $this->id,
 			'title' => $this->title,
 		));
+	}
+
+	protected function beforeSave()
+	{
+		if (parent::beforeSave())
+		{
+			if ($this->isNewRecord)
+			{
+				$this->create_time = $this->update_time = time();
+				$this->author_id = Yii::app()->users->id;
+			}
+			else
+				$this->update_time = time();
+			return true;
+		}
+		else
+			return false;
+	}
+
+	protected function afterSave()
+	{
+		parent::afterSave();
+		Tag::model()->updateFrequency($this->_oldTags, $this->tags);
+	}
+
+	private $_oldTags;
+
+	protected function afterFind()
+	{
+		parent::afterFind();
+		$this->_oldTags = $this->tags;
 	}
 
 	/**
