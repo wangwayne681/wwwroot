@@ -2283,3 +2283,187 @@ in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/Site
 in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
 in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
 in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:01:39 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:01:39 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:20 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:20 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:21 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:21 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:22 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)
+2019/08/08 04:34:22 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)
+2019/08/08 04:34:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/models/LoginForm.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (94)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:34:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/models/LoginForm.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (94)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:34:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:34:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:09 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:09 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:11 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:11 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:11 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:11 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:11 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:12 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:12 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:13 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:13 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:13 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)
+2019/08/08 04:58:13 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)
+2019/08/08 04:58:19 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/models/LoginForm.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (94)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:19 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/models/LoginForm.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (94)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:19 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:19 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:23 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:23 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:24 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:25 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:25 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (32)
+2019/08/08 04:58:26 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:26 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:27 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:27 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (14)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:27 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/site/contact.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:27 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:27 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/index.php (13)
+2019/08/08 04:58:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)
+2019/08/08 04:58:28 [warning] [system.web.CHttpSession] Failed to start session.
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/main.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/views/layouts/column1.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/wwwroot/blog/protected/controllers/SiteController.php (98)

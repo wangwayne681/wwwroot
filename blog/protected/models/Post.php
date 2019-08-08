@@ -19,6 +19,11 @@
  */
 class Post extends CActiveRecord
 {
+
+	const STATUS_DRAFT = 1;
+	const STATUS_PUBLISHED = 2;
+	const STATUS_ARCHIVED = 3;
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -97,6 +102,14 @@ class Post extends CActiveRecord
 				'condition' => 'status=' . Comment::STATUS_APPROVED
 			),
 		);
+	}
+
+	public function getUrl()
+	{
+		return Yii::app()->createUrl('post/view', array(
+			'id' => $this->id,
+			'title' => $this->title,
+		));
 	}
 
 	/**
