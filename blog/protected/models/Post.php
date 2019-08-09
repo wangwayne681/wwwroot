@@ -149,6 +149,16 @@ class Post extends CActiveRecord
 		);
 	}
 
+	public function addComment($comment)
+	{
+		if (Yii::app()->params['commentNeedApproval'])
+			$comment->status = Comment::STATUS_PENDING;
+		else
+			$comment->status = Comment::STATUS_APPROVED;
+		$comment->post_id = $this->id;
+		return $comment->save();
+	}
+
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 *

@@ -67,19 +67,36 @@ class PostController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	// public function actionView($id)
-	// {
-	// 	$this->render('view',array(
-	// 		'model'=>$this->loadModel($id),
-	// 	));
-	// }
 
 	public function actionView()
 	{
 		$post = $this->loadModel();
+		$comment = $this->newComment($post);
+
 		$this->render('view', array(
-			'model'=>$post,
+			'model' => $post,
+			'comment' => $comment,
 		));
+	}
+
+	protected function newComment($post)
+	{
+		$comment = new Comment;
+
+		if (isset($_POST['ajax']) && $_POST['ajax'] === 'comment-form') {
+			echo CActiveForm::validate($comment);
+			Yii::app()->end();
+		}
+
+		if (isset($_POST['Comment'])) {
+			$comment->attributes = $_POST['Comment'];
+			if ($post->addComment($comment)) {
+				if ($comment->status == Comment::STATUS_PENDING)
+					Yii::app()->user->setFlash('commentSubmitted', 'Thank you for your comment. Your comment will be posted once it is approved.');
+				$this->refresh();
+			}
+		}
+		return $comment;
 	}
 
 	private $_model;
@@ -136,13 +153,32 @@ class PostController extends Controller
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
 	 * @param integer $id the ID of the model to be deleted
 	 */
-	public function actionDelete($id)
-	{
-		$this->loadModel($id)->delete();
+	// public function actionDelete($id)
+	// {
+	// 	$this->loadModel($id)->delete();
 
-		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-		if(!isset($_GET['ajax']))
-			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+	// 	// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+	// 	if(!isset($_GET['ajax']))
+	// 		$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+	// }
+
+	public function actionDelete()
+	{
+		if (Yii::app()->request->isPostRequest) {
+			// we only allow deletion via POST request
+			$this->loadModel()->delete();
+
+			if (!isset($_GET['ajax']))
+				$this->redirect(array('index'));
+		} else
+			throw new CHttpException(400, 'Invalid request. Please do not repeat this request again.');
+	}
+
+	protected function afterDelete()
+	{
+		parent::afterDelete();
+		Comment::model()->deleteAll('post_id=' . $this->id);
+		Tag::model()->updateFrequency($this->tags, '');
 	}
 
 	/**
@@ -181,15 +217,25 @@ class PostController extends Controller
 	/**
 	 * Manages all models.
 	 */
+	// public function actionAdmin()
+	// {
+	// 	$model=new Post('search');
+	// 	$model->unsetAttributes();  // clear any default values
+	// 	if(isset($_GET['Post']))
+	// 		$model->attributes=$_GET['Post'];
+
+	// 	$this->render('admin',array(
+	// 		'model'=>$model,
+	// 	));
+	// }
+
 	public function actionAdmin()
 	{
-		$model=new Post('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Post']))
-			$model->attributes=$_GET['Post'];
-
-		$this->render('admin',array(
-			'model'=>$model,
+		$model = new Post('search');
+		if (isset($_GET['Post']))
+			$model->attributes = $_GET['Post'];
+		$this->render('admin', array(
+			'model' => $model,
 		));
 	}
 
