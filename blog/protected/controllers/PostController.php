@@ -50,7 +50,7 @@ class PostController extends Controller
 		return array(
 			array(
 				'allow', // allow all users to perform 'list' and 'show' actions
-				'action' => array('index', 'view'),
+				'actions' => array('index', 'view'),
 				'users' => array('*'),
 			),
 			array(
@@ -78,7 +78,7 @@ class PostController extends Controller
 	{
 		$post = $this->loadModel();
 		$this->render('view', array(
-			'mode'=>$post,
+			'model'=>$post,
 		));
 	}
 
@@ -164,7 +164,7 @@ class PostController extends Controller
 			'with' => 'commentCount',
 		));
 		if (isset($_GET['tag']))
-			$criteria->addSearchCondition('tag', $_GET['tag']);
+			$criteria->addSearchCondition('tags', $_GET['tag']);
 
 			$dataProvider = new CActiveDataProvider('Post', array(
 				'pagination' => array(

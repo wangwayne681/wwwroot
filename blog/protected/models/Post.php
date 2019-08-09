@@ -65,16 +65,6 @@ class Post extends CActiveRecord
 		$this->tags = Tag::array2string(array_unique(Tag::string2array($this->tags)));
 	}
 
-	public static function string2array($tags)
-	{
-		return preg_split('/\s*,\s*/', trim($tags), -1, PREG_SPLIT_NO_EMPTY);
-	}
-
-	public static function array2string($tags)
-	{
-		return implode(', ', $tags);
-	}
-
 	/**
 	 * @return array relational rules.
 	 */
@@ -118,7 +108,7 @@ class Post extends CActiveRecord
 			if ($this->isNewRecord)
 			{
 				$this->create_time = $this->update_time = time();
-				$this->author_id = Yii::app()->users->id;
+				$this->author_id = Yii::app()->user->id;
 			}
 			else
 				$this->update_time = time();
