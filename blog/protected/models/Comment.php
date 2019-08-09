@@ -143,4 +143,24 @@ class Comment extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public function getPendingCommentCount()
+	{
+		return $this->count('status=' . self::STATUS_PENDING);
+	}
+
+	public function getUrl($post = null)
+	{
+		if ($post === null)
+			$post = $this->post;
+		return $post->url . '#c' . $this->id;
+	}
+
+	public function getAuthorLink()
+	{
+		if (!empty($this->url))
+			return CHtml::link(CHtml::encode($this->author), $this->url);
+		else
+			return CHtml::encode($this->author);
+	}
 }
