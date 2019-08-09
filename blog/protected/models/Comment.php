@@ -163,4 +163,13 @@ class Comment extends CActiveRecord
 		else
 			return CHtml::encode($this->author);
 	}
+
+	public function findRecentComments($limit = 10)
+	{
+		return $this->with('post')->findAll(array(
+			'condition' => 't.status=' . self::STATUS_APPROVED,
+			'order' => 't.create_time DESC',
+			'limit' => $limit,
+		));
+	}
 }
